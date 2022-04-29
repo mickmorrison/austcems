@@ -21,7 +21,7 @@ data <- (tables[[2]])
 
 # export the data variable containing cemetery inscriptions as a csv file
 
-filename = paste0("~/ownCloud/UNE/Teaching/HINQ302 Researching the Past in the Digital Age/Dev/austcems/test_lg_cem_sp_",cem_pages, ".csv") 
+filename = paste0("~/ownCloud/UNE/Teaching/HINQ302 Researching the Past in the Digital Age/Dev/austcems/test_lg_cem_sp_",pages, ".csv") 
 
 write.csv(data,filename) 
 
